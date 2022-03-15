@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+table,td,tr{
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 5px 5px;
+}
+input{
+    padding: 3px 5px;
+}
+.button{
+    padding: 5px 5px;
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: coral;
+    color: white;
+    text-transform: uppercase;
+    border: none;
+    cursor: pointer;
+}
+.button:hover{
+    background-color:darkslategrey;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.input{
+    margin-right: 20px;
+}
+.table_button table,.table_button tr,.table_button td{
+    border: none;
+}
+#number3{
+    background-color: rgb(45, 95, 151);
+    color: white;
+    text-align: center;
+}

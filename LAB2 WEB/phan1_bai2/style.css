@@ -1,0 +1,164 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: 1px solid black;
+}
+.header_left,.header_right,.header_left ul,.header_left ul li,.header_left ul li a,.site_title
+,.body_left ul li,.navigation,.description ul,.description ul li,.description
+,.description h1,.sub_product,.product_title h1,.product_title h3,.product_title p
+,.product_title,.product,.main_footer,.main_footer ul li a,.main_footer ul li,.main_footer ul,.footer_information
+,.main_footer_sub{
+    border: none;
+}
+ul{
+    list-style: none;
+}
+.main_header,.header_left,.header_left ul,.main_body{
+    display: flex;
+    
+}
+.main_header,.header_left,.header_left ul{
+    align-items: center;
+    justify-content: space-between;
+}
+.main{
+    height: 100vh;
+}
+.main_header{
+    height: 10%;
+}
+.site_title{
+    margin-left: 15px;
+    font-size: 26px;
+    font-weight: 700;
+}
+.header_left ul{
+    margin-left: 60px;
+}
+.header_left ul li{
+    margin-right: 10px;
+    position: relative;
+}
+.header_left ul li a{
+    color: rgb(38, 148, 148);
+}
+.input_search{
+    border-radius: 10px;
+    height: 30px;
+    width: 200px;
+    padding: 0 15px;
+    outline:none;
+    font-size: 16px;
+    margin-right: 20px;
+}
+.main_body{
+    height: 80%;
+}
+.body_left,.body_right{
+    width: 160px;
+}
+.body_center{
+    width: calc(100% - 320px);
+}
+.category{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 35px;
+    background-color: chocolate;
+    color: white;
+}
+.body_left ul li{
+    line-height: 24px;
+    margin-left: 10px;
+}
+.body_right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+}
+.body_center{
+    padding: 10px;
+    height: 100%;
+}
+.img_product{
+    width: 50%;
+    height: 300px;
+    object-fit: cover;
+}
+.product{
+    display: flex;
+    margin-top: 10px;
+}
+.product_title p{
+    text-align: justify;
+    line-height: 26px;
+}
+.product_title h1,.product_title h3{
+    margin-bottom: 10px;
+}
+.product_title{
+    width: 50%;
+    padding: 10px;
+    position: relative;
+}
+.sub_product{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.sub_product img{
+    object-fit: cover;
+    width: 20%;
+}
+.buy{
+    position: absolute;
+    top:90%;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 10px 25px;
+    border-radius: 10px;
+    background-color: chocolate;
+    color: white;
+}
+.description ul li{
+    margin-bottom: 5px;
+}
+.main_footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 10%;
+}
+.main_footer ul{
+    display: flex;
+}
+.main_footer ul li{
+    margin-right: 10px;
+    position: relative;
+}
+.main_footer_sub{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.end{
+    margin-right: 0!important;
+}
+.border{
+    content: "";
+    height: 15px;
+    width: 1px;
+    position: absolute;
+    top:12%;
+    right:-5px;
+}
+.link{
+    color:black;
+}

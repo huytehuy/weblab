@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+button{
+    padding: 5px 5px;
+    width: 120px;
+    height: 50px;
+    background-color: coral;
+    color: white;
+    border: none;
+    margin-right: 20px;
+    cursor: pointer;
+    border-radius: 20px;
+}
+button:hover{
+    background-color: rgb(50, 99, 83);
+}
+.main_button{
+    margin-bottom: 20px;
+    display: flex;
+}
+table{
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+table,tr,td{
+    border: solid 1px black;
+    border-collapse: collapse;
+}
+td{
+    height: 30px;
+    width: 30px;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+.table{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+.close{
+    display: none;
+}
+.xoa_hang,.xoa_cot{
+    display: flex;
+}
+.xoa_hang{
+    margin-bottom: 20px;
+}
+.xoa_hang div,.xoa_cot div{
+    width: 150px;
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+}
+.main_input{
+    display: flex;
+    align-items: center;
+}
+.main_input_sub{
+    margin-right: 20px;
+}
+input{
+    padding: 5px;
+}

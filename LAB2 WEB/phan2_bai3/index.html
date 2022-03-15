@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="main">
+        <div class="register">
+            <h1>Register</h1>
+            <form name="form" method="POST" onsubmit="">
+                <label for="firstName"></label>
+                <div>
+                    <input type="text" id="firstName" placeholder="Enter First name ...">
+                </div>
+        
+                <label for="lastName"></label>
+                <div>
+                    <input type="text" id="lastName" placeholder="Enter Last name ...">
+                </div>
+        
+                <label for="email"></label>
+                <div>
+                    <input type="text" id="email" placeholder="Enter Email ...">
+                </div>
+        
+                <label for="password"></label>
+                <div>
+                    <input type="password" id="password" placeholder="Enter Password ...">
+                </div>
+        
+        
+                <label>Birthday</label>
+                <div>
+                    <select id="day">
+                        <option selected disabled hidden>Day</option>
+                    </select>
+                    <select id="month">
+                        <option selected disabled hidden>Month</option>
+                    </select>
+                    <select id="year">
+                        <option selected disabled hidden>Year</option>
+                    </select>
+                </div>
+        
+                <label>Gender:</label>
+                <div>
+                    <input type="radio" name="gender" id="male" value="male" checked>
+                    <label for="male">Male</label>
+                    <input type="radio" name="gender" id="female" value="female">
+                    <label for="female">Female</label>
+                    <input type="radio" name="gender" id="unknow" value="unknow">
+                    <label for="unknow">Unknown</label>
+                </div>
+        
+        
+                <label for="country">Country:</label>
+                <div>
+                    <select id="country">
+                        <option selected>Vietnam</option>
+                        <option>Australia</option>
+                        <option>United States</option>
+                        <option>India</option>
+                        <option>Other</option>
+                    </select>
+                </div>
+        
+                <label for="about">About:</label>
+                <div>
+                    <textarea id="about" rows="3"></textarea>
+                </div>
+        
+        
+                <button type="submit">Submit</button>
+                <button type="reset">Reset</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
